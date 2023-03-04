@@ -35,6 +35,15 @@
       "img": "url",
       "background": "url",
       "id": 5
+    },
+    {
+      "email": "henri@mail.com",
+      "password": "$2a$10$D1u9jl.gTsUx0p.qphmSyeL8Es6xmcVWqvdMzSLFkI5QYzbHSSTB.",
+      "name": "Henrique Gonçalves",
+      "nickname": "henri",
+      "img": "url",
+      "background": "url",
+      "id": 6
     }
   ],
   "animes": [
