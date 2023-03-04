@@ -1,0 +1,137 @@
+{
+  "users": [
+    {
+      "email": "joaopaulo@mail.com",
+      "password": "$2a$10$NHeq447rCZOj1ZuBtpC0LuwWppYngCJ0PKxY5TZD1X3HKW2inguL.",
+      "name": "João Paulo",
+      "nickname": "JP",
+      "img": "url",
+      "background": "url",
+      "id": 2
+    },
+    {
+      "email": "olivier@mail.com",
+      "password": "$2a$10$ZH5m/60iBY7/82r9GvLPter89.u5O02SfAx8MRbQ3zkei5Km0zLKu",
+      "name": "Carlos Olivier",
+      "nickname": "Coli",
+      "img": "url",
+      "background": "url",
+      "id": 3
+    },
+    {
+      "email": "eli@mail.com",
+      "password": "$2a$10$7.7hm.xfSCXXQ7aCv9eLXOUdqrkzKgoDCvCkwWN11R9de6wxvoFRu",
+      "name": "Eliana Soares",
+      "nickname": "Eli",
+      "img": "url",
+      "background": "url",
+      "id": 4
+    },
+    {
+      "email": "jo@mail.com",
+      "password": "$2a$10$X3FfmR8zpHIHWTDTvX15TOc35BPIKTZctdqizjWXsAzHEXTfEXjQO",
+      "name": "Joana Soares",
+      "nickname": "Jô",
+      "img": "url",
+      "background": "url",
+      "id": 5
+    }
+  ],
+  "animes": [
+    {
+      "book": "A Rainha Verde",
+      "author": "Victoria Aveyard",
+      "year": 2015,
+      "userId": 3,
+      "id": 1
+    },
+    {
+      "book": "Mundo de Sofia",
+      "author": "Victoria Aveyard",
+      "year": 2015,
+      "userId": 2,
+      "id": 3
+    },
+    {
+      "book": "O dia do curinga",
+      "author": "Victoria Aveyard",
+      "year": 2015,
+      "userId": 4,
+      "id": 4
+    },
+    {
+      "book": "O dia depois de amanhã",
+      "author": "Victoria Aveyard",
+      "year": 2015,
+      "userId": 4,
+      "id": 5
+    },
+    {
+      "book": "O dia depois de amanhã",
+      "author": "Victoria Aveyard",
+      "year": 2015,
+      "userId": 4,
+      "id": 6
+    }
+  ],
+  "favorites": [
+    {
+      "id": 1,
+      "animesIds": [
+        1,
+        2
+      ],
+      "userId": 2
+    },
+    {
+      "id": 2,
+      "animesIds": [
+        1,
+        2
+      ],
+      "userId": 3
+    }
+  ],
+  "customlist": [
+    {
+      "id": 2,
+      "userId": 2,
+      "name": "exemplo1",
+      "animesIds": [
+        3,
+        2
+      ],
+      "quantidadeAnimes": 2
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "name": "exemplo2",
+      "animesIds": [
+        3,
+        2
+      ],
+      "quantidadeAnimes": 2
+    },
+    {
+      "userId": 3,
+      "name": "exemplo77",
+      "idsAnime": [
+        2,
+        3
+      ],
+      "quantidadeAnimes": 2,
+      "id": 4
+    },
+    {
+      "userId": 4,
+      "name": "exemplo22",
+      "idsAnime": [
+        2,
+        3
+      ],
+      "quantidadeAnimes": 2,
+      "id": 5
+    }
+  ]
+}
