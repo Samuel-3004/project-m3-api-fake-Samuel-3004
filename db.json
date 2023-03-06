@@ -51,35 +51,30 @@
       "book": "A Rainha Verde",
       "author": "Victoria Aveyard",
       "year": 2015,
-      "userId": 3,
       "id": 1
     },
     {
       "book": "Mundo de Sofia",
       "author": "Victoria Aveyard",
       "year": 2015,
-      "userId": 2,
       "id": 3
     },
     {
       "book": "O dia do curinga",
       "author": "Victoria Aveyard",
       "year": 2015,
-      "userId": 4,
       "id": 4
     },
     {
       "book": "O dia depois de amanhã",
       "author": "Victoria Aveyard",
       "year": 2015,
-      "userId": 4,
       "id": 5
     },
     {
       "book": "O dia depois de amanhã",
       "author": "Victoria Aveyard",
       "year": 2015,
-      "userId": 4,
       "id": 6
     }
   ],
