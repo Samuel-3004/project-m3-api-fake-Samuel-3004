@@ -9,9 +9,9 @@ const router = jsonServer.router("db.json");
 app.db = router.db;
 
 const rules = auth.rewriter({
-  users: 600,
-  animes: 644,
-  favorites: 660,
+  users: 664,
+  animes: 664,
+  favorites: 600,
   customlist: 640
 });
 
@@ -22,5 +22,3 @@ app.use(router);
 app.listen(port);
 
 console.log("Server is running on port:", port);
-
-/* A senha do Kenzinho é 123456 */

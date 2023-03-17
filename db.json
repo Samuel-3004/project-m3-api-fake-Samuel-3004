@@ -1,141 +1,153 @@
 {
   "users": [
     {
-      "email": "joaopaulo@mail.com",
+      "email": "samuel@mail.com",
       "password": "$2a$10$NHeq447rCZOj1ZuBtpC0LuwWppYngCJ0PKxY5TZD1X3HKW2inguL.",
-      "name": "João Paulo",
-      "nickname": "JP",
-      "img": "url",
-      "background": "url",
+      "name": "Samuel",
+      "nickname": "Samuel",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4wH3CTjXP0PYHFCL_xtfPTcaDmf5rE9ozPQ&usqp=CAU",
+      "background": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4wH3CTjXP0PYHFCL_xtfPTcaDmf5rE9ozPQ&usqp=CAU",
+      "id": 1
+    },
+    {
+      "email": "fernanda@mail.com",
+      "password": "$2a$10$NHeq447rCZOj1ZuBtpC0LuwWppYngCJ0PKxY5TZD1X3HKW2inguL.",
+      "name": "Fernanda Lima",
+      "nickname": "Fê",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNf1ESGOA9_V7HULf-fppdvBX8msIb1-MRPg&usqp=CAU",
+      "background": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNf1ESGOA9_V7HULf-fppdvBX8msIb1-MRPg&usqp=CAU",
       "id": 2
     },
     {
-      "email": "olivier@mail.com",
+      "email": "aline@mail.com",
       "password": "$2a$10$ZH5m/60iBY7/82r9GvLPter89.u5O02SfAx8MRbQ3zkei5Km0zLKu",
-      "name": "Carlos Olivier",
-      "nickname": "Coli",
-      "img": "url",
-      "background": "url",
+      "name": "Aline Olivier",
+      "nickname": "Ali",
+      "img": "https://i0.wp.com/nerdizmo.uai.com.br/wp-content/uploads/sites/29/2022/03/5-animes-estream-em-abril.jpg?fit=1280%2C720&ssl=1",
+      "background": "https://i0.wp.com/nerdizmo.uai.com.br/wp-content/uploads/sites/29/2022/03/5-animes-estream-em-abril.jpg?fit=1280%2C720&ssl=1",
       "id": 3
-    },
-    {
-      "email": "eli@mail.com",
-      "password": "$2a$10$7.7hm.xfSCXXQ7aCv9eLXOUdqrkzKgoDCvCkwWN11R9de6wxvoFRu",
-      "name": "Eliana Soares",
-      "nickname": "Eli",
-      "img": "url",
-      "background": "url",
-      "id": 4
-    },
-    {
-      "email": "jo@mail.com",
-      "password": "$2a$10$X3FfmR8zpHIHWTDTvX15TOc35BPIKTZctdqizjWXsAzHEXTfEXjQO",
-      "name": "Joana Soares",
-      "nickname": "Jô",
-      "img": "url",
-      "background": "url",
-      "id": 5
-    },
-    {
-      "email": "henri@mail.com",
-      "password": "$2a$10$D1u9jl.gTsUx0p.qphmSyeL8Es6xmcVWqvdMzSLFkI5QYzbHSSTB.",
-      "name": "Henrique Gonçalves",
-      "nickname": "henri",
-      "img": "url",
-      "background": "url",
-      "id": 6
     }
   ],
   "animes": [
     {
-      "book": "A Rainha Verde",
-      "author": "Victoria Aveyard",
-      "year": 2015,
+      "name": "Naruto",
+      "urlImage": "https://th.bing.com/th/id/R.5bbe18035906cf4da2047123faf0c637?rik=NM8hPhOaQGp%2bJw&pid=ImgRaw&r=0",
+      "eps": 720,
+      "genre": ["Aventura", "Artes Marciais", "Comédia de Fantasia"],
+      "author": "Masashi Kishimoto",
+      "synopsis": "Naruto Uzumaki, um jovem órfão habitante da Aldeia da Folha que sonha em se tornar o Hokage, o maior guerreiro e governante da vila.",
       "id": 1
     },
     {
-      "book": "Mundo de Sofia",
-      "author": "Victoria Aveyard",
-      "year": 2015,
+      "name": "Fullmetal Alchemist: Brotherhood",
+      "urlImage": "https://th.bing.com/th/id/OIP.A8csIDAXUV2YaALYb8X1_QHaJS?pid=ImgDet&rs=1",
+      "eps": 64,
+      "genre": ["Ação", "Aventura", "Shounen"],
+      "author": "Hiromu Arakawa",
+      "synopsis": "NO descaso com as leis da alquimia tomou dois dos membros de Edward Elric e deixou a alma de Alphonse presa a uma armadura. Para recuperar o que perderam, os irmãos procuram a Pedra Filosofal. O exército corrupto, os homúnculos, alquimistas estrangeiros... Inimigos e aliados alterarão o curso dos irmãos Elric, mas nada conseguirá mudar seu propósito ou romper o elo entre os dois.",
+      "id": 2
+    },
+    {
+      "name": "Code Geass - Lelouch of the Rebellion ",
+      "urlImage": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/073eaa35b1ce29bc29d57739b6479d02.jpe",
+      "eps": 55,
+      "genre": ["Aventura", "Artes Marciais", "Comédia de Fantasia"],
+      "author": "Ichirou Ohkouchi",
+      "synopsis": "No ano de 2017 do Calendário Imperial, partes do mundo estão sob o jugo do Sacro Império Britânnico. Lelouch Lamperouge, um príncipe exilado de Britannia, encontra uma estranha garota chamada C.C. que lhe presenteia com um incrível e terrível poder - o Geass. Com esta potente habilidade, Lelouch é capaz de dobrar qualquer um aos seus desejos... Mas seria o poder do Geass uma bênção ou uma maldição?",
       "id": 3
     },
     {
-      "book": "O dia do curinga",
-      "author": "Victoria Aveyard",
-      "year": 2015,
+      "name": "Re:ZERO -Starting Life in Another World-",
+      "urlImage": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/653fb1c89ecec17dc6947308819d702b.jpe",
+      "eps": 55,
+      "genre": [
+        "Aventura",
+        "Artes Marciais",
+        "Comédia de Fantasia",
+        "Romance",
+        "Drama"
+      ],
+      "author": "Tappei Nagatsuki",
+      "synopsis": "Natsuki Subaru, um adolescente comum, conhece uma linda garota de cabelos prateados vinda de outro mundo. Subaru quer ficar ao lado dela, mas o fardo que ela carrega é maior do que Subaru pode imaginar. Eles enfrentam o feroz ataque de monstros, traições, violência irracional... e, por fim, a morte. Subaru promete derrotar qualquer inimigo, qualquer destino, tudo para protegê-la. E assim, o pobre garoto sem poder algum obtém o \"Retorno da Morte\", uma habilidade única que permite ao usuário voltar no tempo ao morrer. Usando esse poder, o passado é perdido e as memórias são reescritas.",
       "id": 4
     },
     {
-      "book": "O dia depois de amanhã",
-      "author": "Victoria Aveyard",
-      "year": 2015,
+      "name": "The Quintessential Quintuplets",
+      "urlImage": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/010634e9d1c76f0596248c1091e4586c.jpe",
+      "eps": 24,
+      "genre": ["Romance", "Comédia Romantica", "Comédia"],
+      "author": "Negi Haruba",
+      "synopsis": "Uesugi Fuutarou, um estudante do segundo ano do colegial que vem de uma família pobre, recebe uma irrecusável proposta para trabalhar como tutor... e descobre que suas pupilas são suas colegas de classe! E pra piorar, são gêmeas quíntuplas... Todas lindíssimas, mas com péssimas notas e um ódio mortal pelos estudos! Sua primeira missão será ganhar a confiança das garotas?! Todo dia é dia de festa nesta comédia romântica 500% adorável envolvendo as irmãs gêmeas da casa Nakano!",
       "id": 5
     },
     {
-      "book": "O dia depois de amanhã",
-      "author": "Victoria Aveyard",
-      "year": 2015,
+      "name": "ReLIFE",
+      "urlImage": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/4af61e9ed7354fe8d856567cfc4431e3.jpe",
+      "eps": 13,
+      "genre": ["Romance", "Drama"],
+      "author": "Yayoiso",
+      "synopsis": "Arata Kaizaki largou o trabalho que conseguiu após a formatura, pedindo demissão após apenas três meses. Sua vida não melhorou muito depois disso. Agora, seus pais estão ameaçando parar de enviar dinheiro, e querem que ele volte para o interior. Ele não tem amigos nem namorada com quem desabafar e, quando chega ao fundo do poço, um estranho homem chamado Ryo Yoake aparece. Yoake convida Kaizaki a participar de um programa de reabilitação para NEETs chamado ReLIFE. Esse programa utiliza um misterioso medicamento para fazê-lo parecer mais jovem, permitindo que ele passe mais um ano no ginásio.",
       "id": 6
-    }
-  ],
-  "favorites": [
-    {
-      "id": 1,
-      "animesIds": [
-        1,
-        2
-      ],
-      "userId": 2
     },
     {
-      "id": 2,
-      "animesIds": [
-        1,
-        2
-      ],
-      "userId": 3
+      "name": "Demon Slayer: Kimetsu no Yaiba",
+      "urlImage": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/f7adcedd1d7c53ae18d851003a3cfae4.jpe",
+      "eps": 37,
+      "genre": ["Ação", "Drama", "Fantasia", "Shounen"],
+      "author": "Koyoharu Gotouge",
+      "synopsis": "Japão, era Taisho. Tanjiro, um bondoso jovem que ganha a vida vendendo carvão, descobre que sua família foi massacrada por um demônio. E pra piorar, Nezuko, sua irmã mais nova e única sobrevivente, também foi transformada num demônio. Arrasado com esta sombria realidade, Tanjiro decide se tornar um matador de demônios para fazer sua irmã voltar a ser humana, e para matar o demônio que matou sua família. Um triste conto sobre dois irmãos, onde os destinos dos humanos e dos demônios se entrelaçam, começa agora.",
+      "id": 7
+    },
+    {
+      "name": "Black Clover",
+      "urlImage": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/0273e80242d80b0218f640e038269c18.jpe",
+      "eps": 170,
+      "genre": ["Ação", "Aventura", "Comédia", "Fantasia", "Shounen"],
+      "author": "Yūki Tabata",
+      "synopsis": "Num mundo onde magia é tudo, Asta e Yuno são abandonados em uma igreja no mesmo dia. Enquanto Yuno possui poderes mágicos excepcionais, Asta é a única pessoa do mundo todo desprovida desse dom. Aos quinze anos, ambos recebem grimórios - livros mágicos que amplificam os poderes do detentor. Asta recebe um raro grimório de anti-magia, capaz de negar e repelir os feitiços do oponente. Dois opostos que nutrem uma rivalidade amigável, Yuno e Asta estão prontos para encarar os mais difíceis desafios para conquistar seu sonho em comum: tornar-se o Rei dos Feiticeiros. Desistir não é opção!",
+      "id": 8
+    },
+    {
+      "name": "Chainsaw Man",
+      "urlImage": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/ea075b926e1073f4eb016bff8cdb434c.jpe",
+      "eps": 12,
+      "genre": ["Ação", "Sobrenatural", "Shounen"],
+      "author": "Tatsuki Fujimoto",
+      "synopsis": "Denji é um adolescente que mora com Pochita, o Demônio da Motosserra. Por conta das dívidas que herdou de seu pai, ele vive na miséria, exterminando outros demônios com Pochita para pagar as contas. Até que, um dia, Denji é traído e morre. Em seus últimos momentos de consciência, ele firma um contrato com Pochita e renasce como o Homem-Motosserra - um humano com coração de demônio.",
+      "id": 9
+    },
+    {
+      "name": "Dragon Ball Z",
+      "urlImage": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/36bdc5ea4443cd8e42f22ec7d3884cbb.jpe",
+      "eps": 291,
+      "genre": ["Ação", "Drama", "Fantasia", "Shounen"],
+      "author": "Akira Toriyama",
+      "synopsis": "Dragon Ball",
+      "id": 10
     }
   ],
+  "favorites": [],
   "customlist": [
     {
-      "id": 2,
+      "userId": 1,
+      "name": "Dia de feriado",
+      "animesIds": [],
+      "amountAnimes": 0,
+      "id": 1
+    },
+    {
       "userId": 2,
-      "name": "exemplo1",
-      "animesIds": [
-        3,
-        2
-      ],
-      "quantidadeAnimes": 2
-    },
-    {
-      "id": 3,
-      "userId": 3,
-      "name": "exemplo2",
-      "animesIds": [
-        3,
-        2
-      ],
-      "quantidadeAnimes": 2
+      "name": "Alegria e afins",
+      "animesIds": [],
+      "amountAnimes": 0,
+      "id": 2
     },
     {
       "userId": 3,
-      "name": "exemplo77",
-      "idsAnime": [
-        2,
-        3
-      ],
-      "quantidadeAnimes": 2,
-      "id": 4
-    },
-    {
-      "userId": 4,
-      "name": "exemplo22",
-      "idsAnime": [
-        2,
-        3
-      ],
-      "quantidadeAnimes": 2,
-      "id": 5
+      "name": "Triste estou",
+      "animesIds": [],
+      "amountAnimes": 0,
+      "id": 3
     }
   ]
 }
